@@ -2,6 +2,7 @@
 En este repositorio se irán subiendo los avances del proyecto de extracción, transformación y carga de archivos sobre Eurovisión
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SCRAPPEAMOS SPOTIFY -> Obtenemos una tabla Año-Canción-Duración desde 2002 a 2022
+
 ![image](https://user-images.githubusercontent.com/109532909/188490210-7c9f05ba-4322-4e58-ae0d-59de99b0c9f7.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Limpiamos algunos errores (paréntesis, anotaciones innecesarias, etc.)
@@ -12,6 +13,7 @@ Creamos clave para cruce Canción-Año (muy difícil de unir, casi descartado)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 REQUEST A WIKIPEDIA -> Obtenemos una tabla Orden-País-Cantante-Canción-Idioma-Lugar-Año
+
 ![image](https://user-images.githubusercontent.com/109532909/188490665-a6142d68-4fb1-4893-b284-dee78ebf2109.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Extraemos información de las puntuaciones de los últimos 20 años (2002-2022)
@@ -21,6 +23,7 @@ Limpiamos errores (números como string, países duplicados, anotaciones etc.)
 SCRAPPEAMOS YOUTUBE (Fallido -> Se reintentará más adelante)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 BBDD KAGGLE LYRICS -> Obtenemos json de las letras de toda la historia del festival
+
 ![image](https://user-images.githubusercontent.com/109532909/188491630-a944208f-cf93-4d28-a01e-3b76dbcb9263.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Utilizamos MongoDB para leer el archivo y quedarnos con los últimos 20 años
@@ -34,6 +37,7 @@ Limpiezas datos y creamos claves para cruces
 CSV KAGGLE GDP PAÍSES 1999-2022
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Obtenemos tabla País-Año-GDP
+
 ![image](https://user-images.githubusercontent.com/109532909/188494239-87b95486-669a-4dca-be97-3639c0553050.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Limpiamos datos y creamos claves para cruces
